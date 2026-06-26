@@ -1,0 +1,47 @@
+{
+  "version": "1.0.0",
+  "description": "Configuração central das Skills do ULTRON",
+  "skills": {
+    "mcps": [],
+    "integrations": [],
+    "chat": [
+      {
+        "id": "question-card",
+        "name": "Question Card",
+        "description": "Card interativo de perguntas de múltipla escolha no chat",
+        "path": "Skills/question-card/SKILL.md",
+        "enabled": true
+      },
+      {
+        "id": "web-search",
+        "name": "Web Search",
+        "description": "Pesquisa web com card de resultados estilo Chromium no chat",
+        "path": "Skills/web-search/SKILL.md",
+        "enabled": true
+      },
+      {
+        "id": "table",
+        "name": "Data Table",
+        "description": "Tabelas estruturadas inline no chat com ordenação, formatação por tipo e copy as Markdown",
+        "path": "Skills/table/SKILL.md",
+        "enabled": true
+      }
+    ]
+  },
+  "settings": {
+    "autoLoad": true,
+    "enableLogging": true,
+    "maxConcurrentSkills": 10,
+    "timeout": 30000
+  },
+  "security": {
+    "requireApiKeys": true,
+    "validateCertificates": true,
+    "allowedDomains": [
+      "api.openai.com",
+      "api.anthropic.com",
+      "googleapis.com",
+      "graph.microsoft.com"
+    ]
+  }
+}
