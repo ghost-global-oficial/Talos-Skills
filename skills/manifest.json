@@ -1,1 +1,46 @@
-"{\"version\":\"1.0.0\",\"repo\":\"ghost-global-oficial/talos-skills\",\"skills\":[]}"
+{
+  "version": "1.0.0",
+  "repo": "ghost-global-oficial/talos-skills",
+  "skills": [
+    {
+      "id": "skill-1782826438979",
+      "name": "test",
+      "description": "skill test",
+      "code": "test",
+      "createdAt": "2026-06-30T13:33:58.979Z",
+      "author": "Guilherme Pinho"
+    },
+    {
+      "id": "skill-1782826559194",
+      "name": "test 2",
+      "description": "",
+      "code": "",
+      "createdAt": "2026-06-30T13:35:59.194Z",
+      "author": "Guilherme Pinho"
+    },
+    {
+      "id": "skill-1782826680116",
+      "name": "test 3",
+      "description": "",
+      "code": "",
+      "createdAt": "2026-06-30T13:38:00.116Z",
+      "author": "Guilherme Pinho"
+    },
+    {
+      "id": "skill-1782835198838",
+      "name": "test",
+      "description": "",
+      "code": "",
+      "createdAt": "2026-06-30T15:59:58.838Z",
+      "author": "Guilherme Pinho"
+    },
+    {
+      "id": "skill-1782835626705",
+      "name": "test",
+      "description": "",
+      "code": "",
+      "createdAt": "2026-06-30T16:07:06.705Z",
+      "author": "Guilherme Pinho"
+    }
+  ]
+}
